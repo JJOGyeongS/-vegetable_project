@@ -1,0 +1,2 @@
+model_checkpoint_path: "watermelon_saved.cpkt"
+all_model_checkpoint_paths: "watermelon_saved.cpkt"
