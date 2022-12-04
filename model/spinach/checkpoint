@@ -1,0 +1,2 @@
+model_checkpoint_path: "spinach_saved.cpkt"
+all_model_checkpoint_paths: "spinach_saved.cpkt"
