@@ -32,7 +32,7 @@ tensorflow == 2.9.1
 ------------------------------------------------
 ```
 Demo Website
-(https://user-images.githubusercontent.com/85615622/206835801-b897eadb-5e16-401d-9d0a-86387feffb5c.mp4)
+https://user-images.githubusercontent.com/85615622/206835921-8b71eaaf-5d71-4a34-baae-5f0618f568c6.gif
 
 ```
 ### 라이선스
