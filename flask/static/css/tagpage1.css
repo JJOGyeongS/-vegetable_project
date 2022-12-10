@@ -1,0 +1,239 @@
+body {
+    background-color: #91C788;
+}
+
+h2 {
+    margin: 0 auto;
+    padding-right: 50rem;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #91C788;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+a:hover {
+    color: white;
+  }
+
+span {
+    color: #52734D;
+}
+
+/************ ID Main Container ***************/
+
+#main-container {
+    background-color: #DDFFBC;
+    margin: 60px 140px;
+    text-align: center;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+/************* Header section ************/
+
+.logo {
+    width: 300px;
+    padding: 15px 15px 0px;
+
+}
+
+/****** Search Box start ******/
+
+.search-box {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem 0px;
+    background-color: #DDFFBC;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.search {
+    width: 40%;
+    background-color: #DDFFBC;
+    padding: 0.5rem;
+    border-radius: 30px;
+    display: flex;
+  }
+
+.search-icon {
+    width: 25px;
+    margin: 0 auto;
+}
+
+.search-icon-a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;  
+}
+  
+.search-input {
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid #52734D;
+    border-radius: 20px;
+    flex-grow: 1;
+    font-size: 1rem;
+    line-height: normal;
+  }
+  
+.search-btn {
+    margin-left: 5px;
+    padding: 0.5rem 1.3rem;
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    color: white;
+    background-color: #52734D;
+    border: 0;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    width: max-content;
+    flex-shrink: 0;
+  }
+  
+
+.search-btn:hover {
+    background-color: red;
+  }
+
+/************* Header section end *************/
+
+/************* Middle section start *************/
+
+section {
+    height: 500px;
+}
+
+/************ Stats Container ***********/
+
+.stats-container {
+   justify-content: center;
+   display: flex;
+   position: absolute;
+   flex-direction: row;
+   align-items: center;
+   padding-top: 10px;
+   margin: 0 auto;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.flex-img1 {
+   width: 400px;
+   float: left;
+}
+
+.flex-img2 {
+    width: 400px;
+    float: left;
+    padding-left: 30px;
+}
+
+.stats-1 {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+/********** Footer Section ***********/
+
+footer {
+    background-color: #52734D;
+    padding: 50px 0 20px;
+    height: 60px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+.bottom-container {
+    text-align: center;
+    color: white;
+    margin: auto;
+    display: block;
+    padding: 10px 0px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.80rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  /************* For Mobile ************/
+
+@media (max-width: 1228px) {
+    body {
+        text-align: center;
+        align-items: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .search-box {
+        align-items: center;
+        text-align: center;
+        position: relative;
+        display: flexbox;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        transform: rotate(0);
+        justify-content: left;
+    }
+    .img-section {
+        width: 450px;
+        height: 250px;
+        position: static;
+        transform: rotate(0);
+    }
+
+    .images-section {
+        width: 450px;
+        height: 250px;
+        position: static;
+        transform: rotate(0);
+    }
+
+    .stats-container {
+        position: static;
+        padding-top: 10px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+     }
+     
+     .flex-img1 {
+        width: 300px;
+     }
+     
+     .flex-img2 {
+         width: 300px;
+         padding-left: 30px;
+     }
+     
+     .stats-1 {
+         width: 300px;
+         border-radius: 20px;
+         box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+     }
+  }
