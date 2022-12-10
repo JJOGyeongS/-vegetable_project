@@ -30,8 +30,8 @@ Python3.10.x
 ```
 ### Autor
 ------------------------------------------------
-> Gyeongseo-Jo, jsjs8667@naver.com, ChungBuk National Univ(Undergraduate).
-YeJin-Kim, kyj1908577@naver.com, ChungBuk National Univ(Undergraduate).
+> Gyeongseo-Jo, jsjs8667@naver.com, ChungBuk National Univ(Undergraduate).<br>
+YeJin-Kim, kyj1908577@naver.com, ChungBuk National Univ(Undergraduate).<br>
 Namozmuhammadkarim, namozmuhammadkarim@gmail.com, ChungBuk National Univ(Undergraduate).
 -----------------------------------------------
 
